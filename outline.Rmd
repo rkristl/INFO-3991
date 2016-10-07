@@ -1,0 +1,16 @@
+---
+title: "Outline of the course"
+author: "Ryan Elmore"
+date: "October 7, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Expectations
+
+
+## Outline
+
