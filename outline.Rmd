@@ -11,6 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Expectations
 
+We will work through the Stats in Sports course by Mike Lopez at Skidmore
+College.  Once we get a sufficient amount of R base knowledge, we can start
+working on the Draftkings problem.  To get credit in the course, you must:
+
+* Read the assigned articles and discuss with Ryan.
+* Complete the homework assignments.
+* Write a end-of-class report.
 
 ## Outline
 
+* Week One
+    * Check out Mike's website
+    * [Prelim Homework Assignment](https://github.com/rtelmore/sports-stats/blob/master/homework/hw-prelim.Rmd) 
