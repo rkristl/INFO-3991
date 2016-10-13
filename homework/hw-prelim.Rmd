@@ -49,6 +49,5 @@ check out the work of Professor [Jenny Bryan](https://stat545-ubc.github.io/inde
 
     Answer here:
 
-
 Remember to Knit the document! 
 
