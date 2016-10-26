@@ -11,9 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r knitr_options , include=FALSE}
 #Here's some preamble, which makes ensures your figures aren't too big
-knitr::opts_chunk$set(fig.width=6, fig.height=3.6, warning=FALSE,
-message=FALSE)
+knitr::opts_chunk$set(fig.width=6, fig.height=3.6, warning=FALSE, message=FALSE)
 ```
+
+```{r packages , include=FALSE}
+library(mosaic)
+load("../labs/mlb11.RData")
+```
+
 
 For this lab, we will be using the `mlb11` data set, as per Lab 1. Please submit a completed HTML file, due at the beginning of class. 
 
@@ -25,9 +30,6 @@ Write code to upload the `mlb11` data set into `R`, and print the first 6 rows o
 #Your code goes here
 
 ```
-
-
-
 
 
 ## Question 2
@@ -51,7 +53,7 @@ Create a new variable, `AboveAveWins`, representing whether or not the team won 
 You can create separate scatter plots within groups using the code below.
 
 ```{r}
-xyplot(homeruns ~ stolen_bases | AboveAveWins, data = mlb11)
+#xyplot(homeruns ~ stolen_bases | AboveAveWins, data = mlb11)
 ```
 
 Does the association between home runs and stolen bases differ within the groups of `AboveAveWins`?
